@@ -28,6 +28,40 @@
   color: #61dafb;
 }
 
+.messages {
+  height: 100vh;
+  overflow: scroll;
+}
+.message-body {
+  position: relative;
+  height: 100vh;
+}
+
+.main-bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+}
+
+.message-sent {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.message-received {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message-text {
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
